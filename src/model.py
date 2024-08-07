@@ -6,6 +6,6 @@ def load_model():
     return model
 
 def load_encoder():
-    with open(r'C:\Users\cesar\OneDrive\Desktop\Insper\Eletivas\ml_ops\Aula2\models\model.pkl', 'rb') as file:
+    with open(r'C:\Users\cesar\OneDrive\Desktop\Insper\Eletivas\ml_ops\Aula2\models\ohe.pkl', 'rb') as file:
         encoder = pickle.load(file)
     return encoder
